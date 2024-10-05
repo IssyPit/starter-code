@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Fraunces 144';
+    src: url('../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf')format('truetype');
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf)format('truetype');
+}
+:root{
+    --darkPurple: #24053E;
+    --eucaplyptus: #44FFA1;
+    --davisGray: #584D62;
+    --ghostWhite: #FCF8FF;
+    --white: #ffffff;
+}
+.header{
+    background-color: var(--darkPurple);
+    color: var(--white);
+    height: 482px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 16px;
+}
+/* rem = relativo ao body */
+.header-menu p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    text-decoration: underline 3px var(--eucaplyptus);
+    text-underline-offset: 5px;
+}   
+.header-descr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-descr h1{
+    font-family: 'Fraunces 144', serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 50px;
+    text-align: center;
+}
+.header-descr span{
+    text-decoration: underline 3px var(--eucaplyptus);
+    text-underline-offset: 5px;
+}
+.header-descr button{
+    margin: 40px 0 67px;
+    padding: 12px 24px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    background-color: var(--eucaplyptus);
+    line-height: 32px;
+    font-size: 1rem;
+    border: none;
+    letter-spacing: -0.16px;
+}
+.header-menu img{
+    width: 96px;
+    height: 24px;
+}
+.header-img{
+    position: relative;
+}
+.header-img img{
+    width: 320px;
+    height: 184px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-title{
+    font-family: 'Fraunces 144', serif;
+    color: var(--darkPurple);
+    font-size: 20px;
+    line-height: 36px;
+}
+.main-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 342px;
+    height: 163px;
+}
+.main-item h2{
+    font-family: 'Fraunces 144', serif;
+    font-weight: 342px;
+    color: var(--darkPurple);
+    font-size: 28px;
+    line-height: 36px;
+}
+.main-item p{
+    font-family: 'Manrope', sans-serif;
+    color: var(--davisGray);
+}
