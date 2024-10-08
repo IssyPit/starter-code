@@ -109,12 +109,24 @@
     font-family: 'Manrope', sans-serif;
     color: var(--davisGray);
 }
-.apply-founder{
-   
+.apply{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 603px;
+    padding: 64px 16px 74px;
+}
+.apply-founder img{
+   height: 281px;
+   width: 281px;
 }
 .apply-descr{
     background-color:var(--darkPurple);
     color: var(--ghostWhite);
+    position: absolute;
+    top: 42%;
+    width: 343px;
+    height: 375px;
 }
 .apply-descr h2{
     font-family: 'Fraunces 144', serif;
