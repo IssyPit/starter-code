@@ -154,9 +154,11 @@
     font-weight: bold;
     border: none;
 }
-.footer{
-   
+.footer-principal{
+    background-color: #44FFA1;
+   display: flex;
+   justify-content: center;
 }
 .footer-social{
-    
+    background-color: #24053E;
 }
