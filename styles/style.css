@@ -155,10 +155,13 @@
     border: none;
 }
 .footer-principal{
-    background-color: #44FFA1;
-   display: flex;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
 }
 .footer-social{
-    background-color: #24053E;
+    display: flex;
+    gap: 28px;
+    padding: 0 130px 64px;
 }
