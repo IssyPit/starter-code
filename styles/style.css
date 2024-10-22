@@ -7,9 +7,12 @@
     font-family: 'Manrope';
     src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf)format('truetype');
 }
-html, body {
+
+html,
+body {
     overflow-x: hidden;
 }
+
 :root {
     --darkPurple: #24053E;
     --eucaplyptus: #44FFA1;
@@ -201,9 +204,11 @@ html, body {
         height: 269px;
         margin-bottom: 92px;
     }
-    .main{
+
+    .main {
         padding: 190px 16px 64px;
     }
+
     .main-item {
         flex-direction: row;
         gap: 32px;
@@ -253,23 +258,28 @@ html, body {
         flex-direction: column;
         align-items: center;
     }
+
     .item-box {
         width: 354px;
         text-align: center;
     }
+
     .apply {
-       padding: 110px 134px 60px;
+        padding: 110px 134px 60px;
         width: 100%;
     }
-    .apply-founder img{
+
+    .apply-founder img {
         width: 477px;
         height: 477px;
     }
+
     .apply-descr {
         left: 33%;
         width: 40%;
     }
-    .apply-descr h2{
+
+    .apply-descr h2 {
         font-size: 56px;
         line-height: 64px;
     }
